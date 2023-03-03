@@ -1,0 +1,459 @@
+/*  =-====== importing fonts.css == */
+
+@import url(/css/fonts.css);
+
+@import url(./variables.css);
+
+body {
+  color: #fafafa;
+  background: #232a34;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  zoom: 90%;
+  overflow-x: hidden;
+}
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #292b2c;
+  background-color: #fff;
+}
+/* ============= start header area ======= */
+
+.main-menu {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background: var(--dark2);
+  height: 4rem;
+}
+.main-menu .navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: white;
+}
+.header_area .main-menu .navbar-brand {
+  width: 60px;
+  height: 10px;
+}
+.nav-link {
+  margin-left: 10px;
+}
+.navbar-nav a:hover {
+  color: rebeccapurple;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(111, 0, 255);
+  background-clip: text;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+/* ============= end header area ======= */
+/* ============== start banner area ========*/
+.site-main .banner-area {
+  background: var(--dark2);
+
+  padding: 0rem 4rem 0rem 0rem;
+}
+
+.site-main .banner-area .banner-img img {
+  padding: 5rem 2rem 5rem 0rem;
+  height: 30rem;
+  margin-top: 10rem;
+  opacity: 0.8;
+  zoom: 90%;
+}
+.site-main .banner-area .banner-title {
+  padding: 4rem 0rem 0rem 4rem;
+  margin-top: 6rem;
+}
+.site-main .banner-area .banner-title > span {
+  background: #2ca46d;
+  padding: 9px 30px;
+  color: white;
+  display: inline-block;
+  margin-bottom: 15px;
+  border-radius: 30px 30px 0px 30px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.site-main .banner-area .banner-title h1 {
+  color: #fafafa;
+  word-spacing: 5px;
+  letter-spacing: 0px;
+  margin: 0px;
+  font: normal 45px/50px var(--roboto);
+  font-weight: 700;
+}
+.site-main .banner-area .banner-title h4 {
+  color: #fafafa;
+  word-spacing: 5px;
+  font: normal 20px var(--roboto);
+  margin-bottom: 14px;
+  margin-top: 14px;
+  font-weight: 600;
+}
+
+.site-main .banner-area .banner-title .profile-info span {
+  font-weight: 400;
+  display: block;
+  margin-top: 5px;
+  font-family: "Pop-ins";
+  line-height: 30px;
+  color: #fafafa;
+}
+.site-main .banner-area .banner-title .profile-info i {
+  padding: 0rem 2rem 0rem 0rem;
+}
+
+/* ===========contact details ========== */
+
+.social_profile ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0.5rem 0rem;
+}
+.social_profile ul li {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 100rem;
+  margin-right: 0.7rem;
+  margin-top: 0.8rem;
+  cursor: pointer;
+}
+.social_profile ul :hover {
+  background: #2ca46d;
+}
+.social_profile ul li i {
+  text-align: center;
+  padding-top: 1rem;
+}
+.social_profile ul {
+  list-style-type: disc;
+  color: white;
+}
+/* ============== end banner area======= */
+
+/* ===============   start about area =========== */
+.site-main .about-me-area {
+  background: var(--dark2);
+  padding: 80px;
+}
+.site-main .about-me-area .about_content {
+  margin-top: 100px;
+  padding-right: 40px;
+}
+.site-main .about-me-area .about_content h1 {
+ 
+    font: normal 600 40px/60px var(--roboto);
+    color: #fff;
+    text-align: left;
+    word-spacing: 3px;
+  }
+.site-main .about-me-area .about_content p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #fafafa;
+}
+.site-main .about-me-area .about_content a {
+  background: #2ca46d;
+  color: #fff;
+  padding-right: 10px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 35px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.site-main .about-me-area .about_content_img .img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.site-main .about-me-area .about_content_img img {
+  vertical-align: middle;
+}
+/* ===============   end about area =========== */
+
+/* =======================  start brand area ======================== */
+
+.site-main .brand-area {
+  display: flex;
+  padding: 4rem 1rem;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark2);
+}
+.site-main .brand-area .container-fluid{
+  align-items: center;
+  justify-content: center;
+}
+ .site-main .brand-area .about_content {
+ 
+
+  padding-left:7.5rem;
+} 
+.site-main .brand-area .about_content_img{
+  padding-left: 3rem;
+} 
+.site-main .brand-area .services-title {
+  margin-bottom: 60px;
+  width: 100%;
+  position: relative;
+}
+.site-main .brand-area .services-title h1 {
+  font: normal 600 40px/60px var(--roboto);
+  color: #fff;
+  text-align: center;
+  word-spacing: 3px;
+}
+.site-main .brand-area .first-row .col-lg-4 {
+  display: flex;
+  
+  justify-content: center;
+}
+.site-main .brand-area .first-row .col-lg-4 > .single-brand {
+  border: 1px solid var(--border-color);
+  text-align: center;
+  padding: 0.5rem 0rem;
+  margin: 0.9rem 0;
+  width: 180px;
+  height: 80;
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+.site-main .brand-area .first-row .col-lg-4 > .single-brand > img {
+  width: 50%;
+}
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.2);
+}
+.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover > img {
+  filter: brightness(1.25);
+}
+
+
+
+
+
+/* =======================end brand area ======================== */
+
+/* =============== start education area ========== */
+.site-main .education-area {
+  padding: 4rem 5rem;
+  align-content: center;
+  background-color: var(--dark2);
+}
+.site-main .education-area .services-title {
+  margin-bottom: 60px;
+  width: 100%;
+  position: relative;
+}
+.site-main .education-area .services-title h1 {
+  font: normal 600 40px/60px var(--roboto);
+  color: #fff;
+  text-align: center;
+  word-spacing: 3px;
+}
+
+.site-main .education-area .box .services .services-img {
+  display: inline-block;
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: -35px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 100px;
+  border: 1px solid #2ca46d;
+  background-color: #2ca46d;
+}
+
+.site-main .education-area .box img {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  color: #fafafa;
+  background-color: transparent;
+  text-align: center;
+}
+.site-main .education-area .box {
+  background: #2d343e;
+  padding: 10px;
+  padding-top: 70px;
+  width: 320px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  position: relative;
+  z-index: 2;
+  transition: all 0.3s ease 0s;
+  margin: 50px 29px;
+  height: 450px;
+  /* border: 2px solid var(--primary-color2); */
+}
+.site-main .education-area .box:hover {
+  box-shadow: var(--dark);
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.site-main .education-area .college-list h5 {
+  color: #fff;
+  font: normal 600 22px/2rem var(--roboto);
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.site-main .education-area .college-list h3 {
+  color: #fff;
+  font: normal 300 15px/2rem var(--Quicksand);
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.site-main .education-area .box .college-link {
+  font-family: var(--LuxuriousRoman);
+  font-size: 15px;
+  font: italic;
+  font-weight: 300;
+  color: var(--primary-color2);
+}
+
+.site-main .education-area .college-list p {
+  color: #fff;
+  font: normal 400 18px/20px var(--LuxuriousRoman);
+}
+/* =========== end education area ================= */
+
+/*  ============== start project area ===============*/
+.site-main .project-area {
+  padding: 10rem 10rem;
+  zoom: 80%;
+  background: var(--dark2);
+}
+.site-main .project-area .button-group button {
+  background: transparent;
+  padding-left: 10px;
+  padding: 10px;
+  padding-right: 30px;
+  margin: 1rem;
+  color: #fafafa;
+  font-size: 16px/100px;
+  border: 2px solid #fafafa;
+  border-radius: 30px;
+  font-weight: 700;
+  font-family: var(--roboto);
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+
+.site-main .project-area .button-group {
+  padding-top: 4rem;
+}
+.site-main .project-area .button-group button:hover {
+  background: #2ca46d;
+  border-color: #2ca46d;
+}
+
+.site-main .project-area .project-title .title-h1 {
+  font: normal 600 40px/60px var(--roboto);
+  color: #fff;
+  text-align: center;
+  word-spacing: 3px;
+}
+.site-main .project-area .button-group button + button {
+  padding-left: 2rem;
+}
+.site-main .project-area .grid .title h4 {
+  font-family: var(--roboto);
+  color: #2ca46d;
+}
+.site-main .project-area .grid .title span {
+  font-family: var(--roboto);
+  color: #fafafa;
+}
+.site-main .project-area .grid .our-project .img a:hover img {
+  filter: brightness(1.1) drop-shadow(1px 4px 10px #b1afaf);
+  transform: scale(0.9);
+  border: 3px solid #2ca46d;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+/*  ============== end project area ===============*/
+
+/* ===================start client area ================== */
+.site-main .client-area {
+  zoom: 100%;
+  background-color: var(--dark2);
+}
+.site-main .client-area .client-title {
+  padding: 1rem 7rem;
+  font-family: var(--roboto);
+  color: #fafafa;
+}
+.site-main .client-area .item {
+  margin: 3rem 0rem;
+  background: transparent;
+}
+
+.site-main .client-area .about-client {
+  padding-top: 2rem;
+}
+
+.site-main .client-area .owl-carousel .owl-item {
+  justify-content: center;
+  padding: 0rem 1.5rem;
+  transition: 0.3s ease;
+}
+.site-main .client-area .owl-carousel .owl-dots .owl-dot.active span {
+  background: #2ca46d;
+  width: 12px;
+  height: 12px;
+}
+.owl-item.active.center {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: 0.5s ease;
+}
+/* ===================end client area ==================*/
+
+/* ============ END  skill area ========== */
+/* ===================== FOOTER AREA STARTS ===================== */
+footer.footer-area {
+  padding: 2rem 3rem;
+  background-color: var(--dark2);
+  /* background: url(../imges/footer-bg.png) no-repeat; */
+}
+footer.footer-area .social h5 {
+  font: normal 500 23px/30px var(--roboto);
+  padding-bottom: 1rem;
+  color: #fafafa;
+}
+footer.footer-area .social a > img {
+  padding: 2rem;
+  font-size: 22px;
+  filter: brightness(0.1);
+  transition: 0.4s ease-in-out;
+}
+footer.footer-area .social p {
+  color: #fff;
+}
+footer.footer-area .social a > img:hover {
+  transform: scale(1.7);
+}
+/* ===================== FOOTER AREA ends ===================== */

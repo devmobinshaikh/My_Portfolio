@@ -1,0 +1,18 @@
+/* ======== roboto ======= */
+@font-face {
+    font-family: "Roboto";
+    src:'./fonts/Roboto/Roboto-Regular.ttf';
+}
+
+/* ======== Quicksand ======= */
+@font-face {
+    font-family: "Quicksand";
+    src:'./fonts/Quicksand/Quicksand-VariableFont_wght.ttf';
+}
+
+/* =========== Luxurious_roman ==== */
+@font-face {
+    font-family: "LuxuriousRoman-Regular";
+    src:'./fonts/Luxurious_Roman/LuxuriousRoman-Regular.ttf';
+}
+
